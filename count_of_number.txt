@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "enter the number" << endl;
+    int n,c=0;
+    cin>>n;
+ while(n!=0)
+ {
+     n=n/10;
+     c++;
+ }
+    cout<<"count"<<c;
+   return 0;
+}

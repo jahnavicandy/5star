@@ -1,0 +1,17 @@
+#include <iostream>
+//reverse of the number
+using namespace std;
+int main()
+{
+   cout<<"enter";
+   int n,r=0,x=0;
+   cin>>n;
+   while (n!=0)
+   {
+       r=n%10;
+       n=n/10;
+       x=r+10*x;
+    }
+    cout<<"number"<<x;
+    return 0;
+}
