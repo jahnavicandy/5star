@@ -1,0 +1,21 @@
+#include <iostream>
+//reverse of the number
+using namespace std;
+int main()
+{
+   cout<<"enter";
+   int n,r=0,x=0;
+   cin>>n;
+   int k=0;
+   k=n;
+   while(n!=0)
+   {
+       r=n%10;
+       n=n/10;
+       x=r+10*x;
+    }
+    cout<<"reverse number"<<x<<endl;
+    int a=x+k;
+    cout<<"sum of original and reversed"<<a;
+    return 0;
+}
