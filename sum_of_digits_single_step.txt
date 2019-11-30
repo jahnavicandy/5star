@@ -1,0 +1,26 @@
+#include <iostream>
+//reverse of the number
+using namespace std;
+int main()
+{
+   cout<<"enter";
+   int n,x=0;
+   cin>>n;
+   int k=0;
+   k=n;
+   /*int r=0;
+   cout<<"with steps";
+   while(n!=0)
+   {
+       r=n%10;
+       n=n/10;
+       x=x+r;
+    }
+ cout<<"sum of digits"<<x<<endl;
+ cout<<"with single step"<<endl;*/
+ n=k;int q=0;
+ x=0;
+ for(;n!=0;q=n%10,n/=10,x+=q);
+    cout<<"sum"<<endl<<x;
+ return 0;
+}
