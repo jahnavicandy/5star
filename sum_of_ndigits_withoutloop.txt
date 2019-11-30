@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+void calll(int sum,int b);
+int sum=0;
+int main()
+{ int x1,x2;
+cout<<"enter stating and ending no";
+cin>>x1>>x2;
+ calll(x1,x2);
+    return 0;
+}
+void calll(int a,int b)
+{
+  sum=sum+a;
+  a++;
+  if(a!=b)
+{
+
+      calll(a,b);
+  }
+  else{
+        sum=sum+a;
+   cout<<"sum is"<<sum;}
+
+  }
